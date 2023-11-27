@@ -1,11 +1,11 @@
 {
-  "name": "template-typescript",
+  "name": "npm-pkg-issue-describer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run doctor",
-    "doctor:node-version": "check-node-version --node 20 --npx 9 --npm 9",
+    "doctor:node-version": "check-node-version --node 20 --npx 10 --npm 10",
     "doctor": "npm run doctor:node-version",
     "prettier": "prettier --write '**/*'",
     "lint": "eslint src",
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HiromiShikata/template-typescript.git"
+    "url": "git+https://github.com/HiromiShikata/npm-pkg-issue-describer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HiromiShikata/template-typescript/issues"
+    "url": "https://github.com/HiromiShikata/npm-pkg-issue-describer/issues"
   },
   "release": {
     "plugins": [
@@ -35,7 +35,7 @@
       "main"
     ]
   },
-  "homepage": "https://github.com/HiromiShikata/template-typescript#readme",
+  "homepage": "https://github.com/HiromiShikata/npm-pkg-issue-describer#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.1",
