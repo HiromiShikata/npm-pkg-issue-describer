@@ -14,6 +14,9 @@
     "build": "tsc -p ./tsconfig.build.json",
     "test": "jest"
   },
+  "bin": {
+    "issue-describer": "./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HiromiShikata/npm-pkg-issue-describer.git"
